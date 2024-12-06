@@ -1,0 +1,240 @@
+/* S'assurer que les images dans le conteneur 'image' soient alignées à gauche */
+.image {
+    display: flex; /* Utilisation du flexbox pour aligner les images horizontalement */
+    flex-wrap: wrap; /* Permet aux images de passer à la ligne si l'espace est insuffisant */
+    gap: 10px; /* Espacement entre les images */
+}
+
+.image img {
+    max-width: 100%; /* Assure que les images ne débordent pas de leur conteneur */
+    height: auto; /* Maintient les proportions des images */
+    border: 2px solid #ccc; /* Ajoute une bordure autour des images */
+    border-radius: 5px; /* Arrondir les coins des images */
+    margin: 10px 0; /* Ajoute de l'espace au-dessus et au-dessous des images */
+}
+
+/* Style pour les images principales à gauche */
+img {
+    float: left; /* Aligne l'image à gauche */
+    margin-right: 20px; /* Ajoute un espace à droite de l'image */
+    max-width: 300px; /* Limite la taille des images principales */
+    margin-bottom: 20px; /* Ajoute de l'espace en bas de l'image */
+}
+
+/* Justification du texte dans le corps du texte */
+body {
+    font-family: Arial, sans-serif; /* Choix de la police */
+    line-height: 1.6; /* Espacement entre les lignes */
+}
+
+p {
+    text-align: justify; /* Justifie le texte des paragraphes */
+    margin-bottom: 15px; /* Ajoute un espacement sous chaque paragraphe */
+}
+
+h1 {
+    font-size: 4vw; /* Ajuste la taille du texte en fonction de la largeur de la fenêtre */
+    text-align: center; /* Centrer le texte */
+    padding: 110px
+}
+
+/* Conteneur des images aligné verticalement à droite */
+.image {
+    position: absolute; /* Positionnement absolu des images */
+    top: 157px; /* Déplace les images 160px vers le bas par rapport au haut de la page */
+    right: 20px; /* Positionne les images à 20px du bord droit de la page */
+    display: flex; /* Utilisation de Flexbox pour aligner les images verticalement */
+    flex-direction: column; /* Aligne les images verticalement */
+    gap: 145px; /* Espacement de 217px entre chaque image */
+}
+
+/* Ajustement des images avec une taille plus grande */
+.image img {
+    width: 400px; /* Largeur des images */
+    height: auto; /* Conserver les proportions des images */
+    border: 2px solid #ccc; /* Bordure autour des images */
+    border-radius: 5px; /* Coins arrondis */
+}
+
+/* Style général du body pour s'assurer que le texte ne chevauche pas les images */
+body {
+    padding-right: 450px; /* Ajoute un espacement à droite du body pour laisser de la place aux images agrandies */
+    line-height: 1.6; /* Augmente l'interligne pour améliorer la lisibilité */
+}
+
+/* Alignement des titres secondaires à gauche */
+h2, h3 {
+    text-align: left; /* Aligne tous les sous-titres à gauche */
+    margin-left: 0; /* Supprime tout éventuel décalage à gauche (si défini ailleurs) */
+}
+
+/* Style général pour le body */
+body {
+    padding-right: 450px; /* Toujours ajusté pour laisser de la place aux images à droite */
+    line-height: 1.6; /* Augmente l'interligne pour améliorer la lisibilité */
+}
+
+/* Étale le contenu sur toute la largeur de la page à partir de Relations professionnelles */
+.full-width-content {
+    width: 100%; /* Utiliser toute la largeur disponible */
+    padding: 40px; /* Ajouter de l'espace autour du contenu */
+    box-sizing: border-box; /* Inclure le padding dans la largeur totale */
+    text-align: justify; /* Justifier le texte pour qu'il occupe toute la largeur */
+}
+
+/* Agrandir les images tout en les rendant responsive */
+.full-width-content img {
+    width: 100%; /* Les images prennent toute la largeur possible */
+    max-width: 800px; /* Limite la largeur des images pour qu'elles ne deviennent pas trop grandes */
+    margin: 30px 0; /* Ajoute de l'espace autour des images */
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* Centrer les images */
+}
+
+/* Agrandir les titres */
+.full-width-content h2 {
+    font-size: 3.5em; /* Augmente la taille du titre */
+    text-align: center; /* Centrer le titre */
+    margin-bottom: 20px; /* Espacement sous le titre */
+}
+
+/* Agrandir les paragraphes */
+.full-width-content p {
+    font-size: 1.8em; /* Augmente la taille du texte */
+    line-height: 1.8; /* Augmente l'espacement entre les lignes du texte */
+    margin-bottom: 20px; /* Ajoute de l'espace entre les paragraphes */
+}
+
+/* Styliser le texte en justifiant */
+.full-width-content p {
+    text-align: justify; /* Justifie le texte pour qu'il prenne toute la largeur */
+    margin: 10px 0; /* Espacement entre les paragraphes */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Étale le contenu sur toute la largeur de la page à partir de Relations professionnelles */
+.full-width-content {
+    width: 100%; /* Utiliser toute la largeur disponible */
+    padding: 40px; /* Ajouter de l'espace autour du contenu */
+    box-sizing: border-box; /* Inclure le padding dans la largeur totale */
+    text-align: justify; /* Justifier le texte pour qu'il occupe toute la largeur */
+    margin: 0; /* Supprimer les marges externes */
+}
+
+/* Agrandir les images tout en les rendant responsive */
+.full-width-content img {
+    width: 35%; /* Les images prennent toute la largeur possible */
+    max-width: 100%; /* Limiter la largeur des images pour qu'elles ne deviennent pas trop grandes */
+    margin: 30px 0; /* Ajoute de l'espace autour des images */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;*/ /* Centrer les images */
+}
+
+/* Agrandir les titres */
+.full-width-content h2 {
+    font-size: 3.5em; /* Augmente la taille du titre */
+    text-align: center; /* Centrer le titre */
+    margin-bottom: 20px; /* Espacement sous le titre */
+}
+
+/* Agrandir les paragraphes */
+.full-width-content p {
+    font-size: 1.8em; /* Augmente la taille du texte */
+    line-height: 1.8; /* Augmente l'espacement entre les lignes du texte */
+    margin-bottom: 20px; /* Ajoute de l'espace entre les paragraphes */
+    width:141%;
+}
+
+/* Styliser le texte en justifiant */
+.full-width-content p {
+    text-align: justify; /* Justifie le texte pour qu'il prenne toute la largeur */
+    margin: 10px 0; /* Espacement entre les paragraphes */
+}
+
+/* Menu de navigation */
+nav {
+    background-color: #333;
+    padding: 10px 0; /* Espacement vertical */
+    width: 100%; /* Le menu occupe toute la largeur de la page */
+    box-sizing: border-box; /* Inclure le padding dans la largeur totale */
+    position: fixed; /* Fixe le menu en haut de la page */
+    top: 0; /* Assure que le menu reste en haut */
+    left: 0; /* Positionne le menu à gauche */
+    z-index: 1000; /* Assure que le menu reste au-dessus des autres éléments */
+}
+
+/* Liste du menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Utilisation de flexbox pour la disposition des éléments */
+    justify-content: space-between; /* Distribue l'espace également entre les éléments */
+    width: 100%; /* Le menu prend toute la largeur disponible */
+}
+
+/* Style des éléments de la liste */
+nav ul li {
+    flex-grow: 1; /* Permet aux éléments de s'étendre et d'occuper tout l'espace disponible */
+    text-align: center; /* Centre les éléments à l'intérieur de chaque élément de liste */
+}
+
+/* Style des liens */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 8px 16px;
+    display: block; /* Pour rendre les liens cliquables en entier */
+    text-align: center;
+}
+
+/* Effet au survol des liens */
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Pour les petits écrans, réorganiser le menu en une seule colonne */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Aligner les éléments verticalement */
+        align-items: center; /* Centrer les éléments verticalement */
+    }
+
+    nav ul li {
+        margin-bottom: 10px; /* Ajouter un espace entre les éléments */
+        flex-grow: 0; /* Empêche les éléments de se développer sur mobile */
+    }
+}
+
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav ul li a img {
+    width: 40px;           /* Ajuster la taille de l'image */
+    height: auto;          /* Maintenir les proportions de l'image */
+    vertical-align: middle; /* Alignement de l'image avec le texte */
+}
+
+nav ul li a:hover img {
+    opacity: 0.8;          /* Effet de survol, l'image devient légèrement transparente */
+    transition: opacity 0.3s; /* Transition fluide lors du survol */
+}
